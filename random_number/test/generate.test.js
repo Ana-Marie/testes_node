@@ -29,4 +29,14 @@ describe('Generate', () => {
         expect(inicio).not.toBe(fim);
     });
 
+    test('Teste 4', () => {
+
+        // verifica se é um intervalo entre 200 e 3000
+
+        let res = gerarNumeroAleatorio(inicio, fim);
+
+        expect(res).toBeGreaterThanOrEqual(200);
+        expect(res).toBeLessThanOrEqual(3000);
+    });
+
 });
