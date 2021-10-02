@@ -10,5 +10,9 @@ describe('Classificar', () => {
         }).not.toThrow("Idade inválida");
     });
 
+    test('Criança', () => {
+        expect(definirFaixaEtaria(nome, idade).tipo).toBe('Criança');
+    });
+
     
 });
