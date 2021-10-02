@@ -18,5 +18,9 @@ describe('Classificar', () => {
         expect(definirFaixaEtaria(nome, idade).tipo).toBe('Adolescente');
     });
 
+    test('Adulto', () => {
+        expect(definirFaixaEtaria(nome, idade).tipo).toBe('Adulto');
+    });
+
     
 });
