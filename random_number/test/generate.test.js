@@ -22,4 +22,11 @@ describe('Generate', () => {
         expect(fim).toBeGreaterThan(0); // se for maior que zero, passa no teste
     });
 
+    test('Teste 3', () =>{
+        
+        // verifica se o inicio não é igual ao fim
+
+        expect(inicio).not.toBe(fim);
+    });
+
 });
