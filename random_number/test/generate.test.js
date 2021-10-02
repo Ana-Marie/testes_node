@@ -18,4 +18,8 @@ describe('Generate', () => {
         expect(inicio).toBeGreaterThan(0); // se for maior que zero, passa no teste
     });
 
+    test('Teste 2', () =>{
+        expect(fim).toBeGreaterThan(0); // se for maior que zero, passa no teste
+    });
+
 });
